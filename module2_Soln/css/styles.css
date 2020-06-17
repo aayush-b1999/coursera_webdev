@@ -17,9 +17,19 @@ p {
     color: lightcyan;
 }
 
-.ret span{
+.fre1{
     background-color: maroon;
     color: white;
+    font-size: 1.75em;
+}
+.fre2{
+    background-color: yellow;
+    color: red;
+    font-size: 1.75em;
+}
+.fre3{
+    background-color: grey;
+    color: black;
     font-size: 1.75em;
 }
 
