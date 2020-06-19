@@ -1,6 +1,21 @@
 .navbar #navbarSupportedContent .navbar-nav{
     visibility: hidden;
 }
+@media (max-width: 767px){
+    .navbar #navbarSupportedContent .navbar-nav{
+        visibility: visible;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        background-color: lightcoral;
+        color: blue!important;
+    }
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-brand{
+        padding: .5rem 1rem;
+    }
+}
 @media (max-width: 575px) {
     .navbar #navbarSupportedContent .navbar-nav{
         visibility: visible;
