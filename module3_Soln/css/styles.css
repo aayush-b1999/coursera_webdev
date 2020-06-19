@@ -1,0 +1,27 @@
+.navbar #navbarSupportedContent .navbar-nav{
+    visibility: hidden;
+}
+@media (max-width: 575px) {
+    .navbar #navbarSupportedContent .navbar-nav{
+        visibility: visible;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        background-color: lightcoral;
+        color: blue!important;
+    }
+    .container{
+        width: 90%!important;
+    }
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-brand{
+        padding: .5rem 1rem;
+    }
+}
+
+.container{
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+}
